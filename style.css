@@ -1,0 +1,83 @@
+
+body{
+	background-color: teal;
+	font-family: 'Nabla', cursive;
+}
+
+header{
+	
+}
+
+p{
+	width: 450px;
+}
+
+
+.sml{
+	width: 400px;	
+	height: 400px;
+}
+
+.example{
+	margin-top: 50px;
+}
+
+/*On screens that are 1080px max*/
+@media screen and (max-width: 1080px) {
+	body{
+	background-color: green;
+	font-family: 'Roboto', sans-serif;
+	}
+	
+	.sml{
+	width: 300px;	
+	height: 300px;
+	}
+	
+}
+
+/*On screens that are 880px max*/
+@media screen and (max-width: 880px) {
+	body{
+	background-color: olive;
+	}
+	
+	.sml{
+	width: 200px;	
+	height: 200px;
+	}
+	.example{
+	margin-top: 40px;
+	}
+
+}
+
+/*On screens that are max 680px*/
+@media screen and (max-width: 680px) {
+	body{
+	background-color: orange;
+	}
+	
+	.sml{
+	width: 100px;	
+	height: 100px;
+	}
+	.example{
+	margin-top: 30px;
+	}
+}
+
+/*On screens that are 580px max*/
+@media screen and (max-width: 580px) {
+	body{
+	background-color: yellow;
+	}
+	
+	.sml{
+	width: 50px;	
+	height: 50px;
+	}
+	.example{
+	margin-top: 10px;
+	}
+}
